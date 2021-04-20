@@ -7,7 +7,7 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: clamp(1.75rem, calc(3vw + 1rem), 3.5rem);
   font-weight: bold;
   margin-bottom: 16px;
   line-height: 1.35;
@@ -69,11 +69,6 @@ a {
 
 .main-article {
   padding: 0 12px;
-  /*
-    Stop article content from introducing a horizontal
-    scrollbar
-  */
-  overflow: hidden;
 }
 
 .site-header ul {
