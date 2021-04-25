@@ -7,23 +7,25 @@
 }
 
 h1 {
-  font-size: clamp(1.75rem, calc(3vw + 1rem), 3.5rem);
+  font-size: clamp(1.75rem, 3vw + 1rem, 3rem);
   font-weight: bold;
   margin-bottom: 16px;
   line-height: 1.35;
 }
 
 h2 {
+  position: relative;
   font-size: 2rem;
   font-weight: bold;
-  transform: translateX(6px) skew(-24deg);
   margin-bottom: 16px;
   margin-top: 48px;
 }
 
 main {
+  position: relative;
   padding-top: 64px;
   isolation: isolate;
+  max-width: 100%;
 }
 
 article p,
@@ -143,4 +145,19 @@ a {
   .social-icons {
     display: none;
   }
+}
+
+.heading-decoration {
+  position: absolute;
+  top: -25px;
+  right: 0px;
+  width: 75px;
+  height: 75px;
+  background: papayawhip;
+  opacity: 1;
+  transform: translateX(12px) skew(-24deg);
+}
+
+.heading-content {
+  position: relative;
 }
