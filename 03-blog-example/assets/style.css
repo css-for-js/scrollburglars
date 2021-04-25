@@ -22,7 +22,6 @@ h2 {
 }
 
 main {
-  position: relative;
   padding-top: 64px;
   isolation: isolate;
   max-width: 100%;
