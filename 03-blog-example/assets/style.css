@@ -160,3 +160,24 @@ a {
 .heading-content {
   position: relative;
 }
+
+/*
+  NOTE: There are multiple solutions to this problem!
+  The solution shown here is the "stretch goal" one, the one that
+  is the most complicated and uncompromising.
+
+  Do watch the video to catch two alternative simpler solutions!
+*/
+.centered-stuff:not(.floating) {
+  overflow: hidden;
+}
+
+.centered-stuff.floating {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.centered-stuff.floating .max-width-wrapper {
+  height: 100%;
+}

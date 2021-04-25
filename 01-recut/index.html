@@ -67,6 +67,18 @@
 
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+
+    <style>
+      .max-w-md {
+        /*
+          “!important” is only added because a bunch of
+          Tailwind utilities seem to come with it.
+
+          It would not be necessary in most contexts.
+        */
+        max-width: min(28rem, 100%) !important;
+      }
+    </style>
   </head>
   <body class="flex flex-col h-full">
     <header class="mb-10">
