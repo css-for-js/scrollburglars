@@ -4,9 +4,9 @@ In this exercise, your goal is to find and fix the scrollburglars across 3 diffe
 
 ## Running the projects
 
-Start by installing NPM dependencies (`npm install` or `yarn install`).
+Start by installing NPM dependencies (`npm install`).
 
-Run a local fileserver by running `npm start` or `yarn start`.
+Run a local fileserver by running `npm start`.
 
 Visit http://localhost:5000, and you'll see a list of files:
 
