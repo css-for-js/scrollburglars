@@ -8,7 +8,7 @@ Start by installing NPM dependencies (`npm install`).
 
 Run a local fileserver by running `npm start`.
 
-Visit http://localhost:5000, and you'll see a list of files:
+Visit http://localhost:4000, and you'll see a list of files:
 
 ![A directory listing of the files and folders in this project, in a web browser](./docs/file-server.png)
 
